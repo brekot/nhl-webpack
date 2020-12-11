@@ -5,11 +5,16 @@
 @import "./main/reboot"; // Сброс стилей
 @import "./main/margin"; // Отступы
 
-// Общие элементы
+// Библиотеки
 @import '~@fancyapps/fancybox/dist/jquery.fancybox.min.css'; // Fancybox
-@import "./elem/swiper"; // Общие стили сайдера
-@import "./elem/datepicker"; // Календарь
-@import "./elem/data.tables"; // Сортируемые таблицы
+@import "./lib/swiper"; // Общие стили сайдера
+@import "./lib/datepicker"; // Календарь
+@import "./lib/data.tables"; // Сортируемые таблицы
+@import "./lib/jquery.jscrollpane"; // Полоса прокрутки
+@import "./lib/tippy"; // Подсказки
+@import "./lib/photobox"; // Слайдер фото
+
+// Общие элементы
 @import "./elem/elem"; // Незначительные элементы
 @import "./elem/pict.shadow"; // Тень на картинках
 @import "./elem/btn"; // Кнопки
@@ -22,8 +27,6 @@
 @import "./elem/lighthouse"; // Маяк
 @import "./elem/icons"; // Иконки
 @import "./elem/tabs"; // Вкладки
-@import "./elem/jquery.jscrollpane"; // Полоса прокрутки
-@import "./elem/tippy"; // Подсказки
 @import "./elem/h1.and.link"; // H1 с ссылкой
 @import "./elem/accordion"; // Аккордеон
 @import "./elem/table.sort"; // Сортировка таблиц
@@ -45,6 +48,8 @@
 @import "./elem/share.block"; // Поделиться
 @import "./elem/slider.str"; // Копки вперед/назад для слайдера в таблице и чемпионате
 @import "./elem/title.book"; // Заголовок с книжкой
+@import "./elem/hide.text"; // Текст скрытый градиентом
+@import "./elem/now.air"; // Сейчас в эфире
 
 // Шаблон
 @import "./template/region.selection"; // Выбор региона
@@ -156,12 +161,10 @@
 
 // Клуб Сергея Макарова
 @import "./pages/club/list"; // Список
+@import "./pages/club/table"; // Таблица
 
 // Фестиваль
 @import "./pages/festival/head"; // Шапка страницы
-
-// Матчи
-@import "./pages/match/calendar"; // Шапка страницы
 
 // Поиск
 @import "./pages/search/popular"; // Популярные запросы
@@ -180,3 +183,70 @@
 @import "./pages/championship/teams"; // Команды
 @import "./pages/championship/glossary"; // Глоссарий
 @import "./pages/championship/table"; // Таблица
+
+// Управление
+@import "./pages/control/list"; // Список
+
+// Студёный Лёд
+@import "./pages/ice/list"; // Список
+
+// Фото
+@import "./pages/album/gallery"; // Список фотографий
+
+// Видео
+@import "./pages/video/play"; // Ссылка и кнопка воспроизведения
+
+// Карточка игрока
+@import "./pages/player/block"; // Информация
+@import "./pages/player/achievements"; // Достижения
+@import "./pages/player/statistics"; // Статистика
+
+// Матчи
+@import "./pages/match/calendar"; // Шапка страницы
+
+// Карточка матча
+@import "./pages/match/protocol.links"; // Ссылки на протоколы
+@import "./pages/match/head"; // Шапка страницы
+@import "./pages/match/protocol"; // Протокол таблица
+@import "./pages/match/info"; // Короткая информация о команде
+
+// Карточка команды
+@import "./pages/team/links"; // Ссылки в заголовке
+@import "./pages/team/head"; // Шапка
+@import "./pages/team/leadership"; // Руководящий состав
+@import "./pages/team/btn.more"; // Кнопка Показать еще
+@import "./pages/team/filter"; // Фильтр
+@import "./pages/team/link"; // Отступ для ссылки
+@import "./pages/team/fine"; // Таблица штрафов
+
+// Сотрудничество
+@import "./pages/cooperation/info"; // Информация
+@import "./pages/cooperation/media.kit"; // Медиа-кит
+@import "./pages/cooperation/contact"; // Контакты
+
+// Конкурс комментаторов
+@import "./pages/contest/jury"; // Экспертное жюри
+@import "./pages/contest/jury.list"; // Экспертное жюри (список)
+@import "./pages/contest/choose"; // Выберите конкурс
+@import "./pages/contest/information"; // Информация
+@import "./pages/contest/participant"; // Участники
+@import "./pages/contest/regulations"; // Регламент
+@import "./pages/contest/task"; // Задание
+@import "./pages/contest/table.result"; // Итоговая таблица
+@import "./pages/contest/result"; // Итоги
+
+// О лиге
+@import "./pages/about/about"; // Общие стили
+@import "./pages/about/block1"; // Блок 1
+@import "./pages/about/block2"; // Блок 2
+@import "./pages/about/block3"; // Блок 3
+@import "./pages/about/block4"; // Блок 4
+@import "./pages/about/block5"; // Блок 5
+@import "./pages/about/block6"; // Блок 6
+@import "./pages/about/block7"; // Блок 7
+@import "./pages/about/block8"; // Блок 8
+@import "./pages/about/block9"; // Блок 9
+@import "./pages/about/block10"; // Блок 10
+@import "./pages/about/block11"; // Блок 11
+@import "./pages/about/block12"; // Блок 12
+@import "./pages/about/footer"; // Подвал

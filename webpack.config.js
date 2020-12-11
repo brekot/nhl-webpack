@@ -5,6 +5,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
+const webpack = require('webpack');
 
 function generateHtmlPlugins(templateDir)
 {
@@ -112,6 +113,10 @@ const config = {
             {
                 from: "./src/uploads",
                 to: "./local/uploads"
+            },
+            {
+                from: "./src/video",
+                to: "./local/video"
             }
         ])
     ].concat(htmlPlugins)

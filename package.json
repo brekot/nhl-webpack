@@ -10,10 +10,11 @@
 	"dependencies": {
 		"@fancyapps/fancybox": "^3.5.7",
 		"air-datepicker": "^2.2.3",
-		"datatables.net": "^1.10.21",
+		"datatables.net": "^1.10.22",
 		"jquery": "^3.5.1",
 		"swiper": "^5.4.5",
-		"tippy.js": "^6.2.5"
+		"tippy.js": "^6.2.7",
+		"wow.js": "^1.2.2"
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^2.0.1",
@@ -28,7 +29,7 @@
 		"raw-loader": "^1.0.0",
 		"sass-loader": "^7.3.1",
 		"terser-webpack-plugin": "^1.4.5",
-		"webpack": "^4.44.1",
+		"webpack": "^4.44.2",
 		"webpack-cli": "^3.3.12",
 		"webpack-dev-server": "^3.11.0"
 	}
